@@ -37,7 +37,7 @@ function Home() {
          <Product 
           id="93243455357"
           title="Echo Dot (3rd Gen) - Smart speaker with Alexa - Heather Grey Fabric" 
-          price={399.99} 
+          price={390.99} 
           image="https://m.media-amazon.com/images/I/6128QtaL0LL._AC_UY327_FMwebp_QL65_.jpg" 
           rating={5} />
          <Product 
@@ -45,7 +45,7 @@ function Home() {
           title="New Apple iPad Pro (12.9-inch, Wi-Fi, 256GB) - Space Gray (4th Generation)" 
           price={990.99} 
           image="https://m.media-amazon.com/images/I/81WhK5+gf2L._AC_UY327_FMwebp_QL65_.jpg" 
-          rating={5} />
+          rating={4} />
         </div>
 
         <div className="home__row">
