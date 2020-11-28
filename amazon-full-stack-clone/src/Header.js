@@ -24,17 +24,17 @@ function Header() {
       </div>
       <div className="header__nav">
         <div className="header__option">
-          <span className="header__optionLineOne">Hello Guest</span>
-          <span className="header__optionLineTwo">Sign In</span>
+          <span className="header__optionLineOne">Bonjour, Identifiez-vous</span>
+          <span className="header__optionLineTwo">Compte et listes</span>
         </div>
 
         <div className="header__option">
-          <span className="header__optionLineOne">Returns</span>
-          <span className="header__optionLineTwo">& Orders</span>
+          <span className="header__optionLineOne">Retours</span>
+          <span className="header__optionLineTwo">& Commandes</span>
         </div>
 
         <div className="header__option">
-          <span className="header__optionLineOne">Your</span>
+          <span className="header__optionLineOne">Testez</span>
           <span className="header__optionLineTwo">Prime</span>
         </div>
 
