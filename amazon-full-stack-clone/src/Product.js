@@ -6,7 +6,7 @@ import { useStateValue } from "./StateProvider";
 function Product({ id, title, image, price, rating }) {
   const [{basket}, dispatch] = useStateValue();
 
-console.log('this is not working!', basket);
+// console.log('this is working! yes!!', basket);
 
   const addToBasket = () => {
     // const pour dispatcher dans la couche de data
@@ -38,7 +38,7 @@ console.log('this is not working!', basket);
       </div>
       <img src={image} alt="" />
 
-      <button onClick={addToBasket}>Add to basket</button>
+      <button onClick={addToBasket}>Ajoutez au panier</button>
     </div>
   );
 }

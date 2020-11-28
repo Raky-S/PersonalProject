@@ -1,4 +1,5 @@
 import React from "react";
+import Adds from "./addsTab/Adds";
 import "./Home.css";
 import Product from "./Product";
 
@@ -21,12 +22,21 @@ function Home() {
             image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
           />
           <Product
+            id="3564986837"
+            title="Star Wars The Child Animatronic Edition "
+            price={9999.99}
+            image="https://m.media-amazon.com/images/I/41kOBoHmtjL._AC_SY322_.jpg"
+            rating={5} />
+          <Product
             id="3254354345"
             title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
             price={598.99}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
           />
+           <Adds
+           image="https://m.media-amazon.com/images/G/08/shazam/518V2685-600x500-2X-en-GBV2JA-Qxam2._V415730812_.jpg"/>
+          
         </div>
 
         <div className="home__row">

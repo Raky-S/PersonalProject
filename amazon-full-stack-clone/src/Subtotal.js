@@ -14,10 +14,10 @@ const [{ basket }, dispatch] = useStateValue();
         renderText={(value) => (
           <>
             <p>
-              Subtotal ({basket.length}, items ): <strong>{value}</strong>
+             Sous-total ({basket.length}, articles): <strong>{value}</strong>
             </p>
             <small className="subtotal__gift">
-              <input type="checkbox" /> This order contains a gift
+              <input type="checkbox" /> Commande contenant un cadeau
             </small>
           </>
         )}
@@ -28,7 +28,7 @@ const [{ basket }, dispatch] = useStateValue();
         prefix={"€"}
       />
 
-      <button className="" >Proceed to Checkout</button>
+      <button className="" >Passer la commande</button>
     </div>
   );
 }
