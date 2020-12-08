@@ -37,7 +37,8 @@ function Home() {
           />
           <Adds
             id="176747224"
-            image="https://m.media-amazon.com/images/G/08/shazam/518V2685-600x500-2X-en-GBV2JA-Qxam2._V415730812_.jpg" />
+            image="https://m.media-amazon.com/images/G/08/shazam/518V2685-600x500-2X-en-GBV2JA-Qxam2._V415730812_.jpg"
+          />
         </div>
 
         <div className="home__row">
